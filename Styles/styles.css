@@ -63,6 +63,14 @@ top:200px;
 
 }
 
+.zonaColonial{
+        position: absolute;
+        margin:0px;
+        height: 300px;
+        width: 500px;
+        left: 60%;
+        top: 67%;
+
 .Intro{
   position: absolute;
   font-family:"lucida handwriting",cursive;
