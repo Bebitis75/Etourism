@@ -12,90 +12,97 @@ h2{
     margin-bottom: -10%
     
 }
-
-.Divicion-1 {
-margin-top:-1%;
-margin-left: -1%;
-width:101.55%;
-height: 150px;
-position: relative;
-border: 0px;
-}
-
-
+    
+  
+  .Divicion-1 {
+    margin-top:-1%;
+    margin-left: -1%;
+    width:101.55%;
+    height: 150px;
+    position: relative;
+    border: 0px;
+    }
+    
+    
 .Logo{
-height: 200px;
-width: 200px;
-position: absolute;
-top:-5px;
-animation-name: Logo;
-animation-duration:3s;
-animation-iteration-count:1;
-animation-fill-mode: forwards;
-font-family:"lucida handwriting",cursive;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:-5px;
+    animation-name: Logo;
+    animation-duration:3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    font-family:"lucida handwriting",cursive;
+    
+    }
+    
+    
+    @keyframes Logo
+    {
+      from{transform: translateX(-5%)}
+      to{transform:translateX(335%)}
+    }
+    
+    
+    .Divicion-2{
+      margin-top: 0%;
+      margin-left: -1%;
+      position:relative;
+      width: 101.5%;
+      height: 400px;
+      background-color: #FB2D2f;
+    }
+    .bagulas{
+    position: absolute;
+    margin:0px;
+    height: 200px;
+    width: 300px;
+    left: 79%;
+    
 
-}
+    
+    }
+    
+    .dunas{
+    position: absolute;
+    margin: 0px;
+    height: 200px;
+    width: 300px;
+    left: 57.4%;
+    top:200px;
+    
+    }
 
-
-@keyframes Logo
-{
-  from{transform: translateX(-5%)}
-  to{transform:translateX(335%)}
-}
-
-
-.Divicion-2{
-  margin-top: 0%;
-  margin-left: -1%;
-  position:relative;
-  width: 101.5%;
-  height: 400px;
-  background-color: #6FB2D2f;
-}
-.bagulas{
-position: absolute;
-margin:0px;
-height: 200px;
-width: 300px;
-left: 79%;
-
-}
-
-.dunas{
-position: absolute;
-margin: 0px;
-height: 200px;
-width: 300px;
-left: 57.4%;
-top:200px;
-
-}
-
-.zonaColonial{
+    .zonaColonial{
         position: absolute;
         margin:0px;
         height: 300px;
         width: 500px;
         left: 60%;
         top: 67%;
+    }
 
-.Intro{
-  position: absolute;
-  font-family:"lucida handwriting",cursive;
-  left: 10px;
-  width:101.5%;
-  height: 700px;
-}
+    .Intro{
+      position: absolute;
+      font-family:"lucida handwriting",cursive;
+      left: 10px;
+      width:101.5%;
+      height: 700px;
+    }
 
-.Mapa{
-  position: absolute;
-  margin: 200px;
-  height: auto;
-  width: auto;
-  text-align: center;    
-}
-
-.Container{
-    max-width: 1400px;
-    margin: auto;
-}
+    .Mapa{
+        position: absolute;
+        margin: 200px;
+        height: auto;
+        width: auto;
+        text-align: center;
+        
+        
+        
+        }
+    
+    .Container{
+        max-width: 1400px;
+        margin: auto;
+    }
