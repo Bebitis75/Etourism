@@ -71,6 +71,15 @@ top:200px;
   height: 700px;
 }
 
+.Mapa{
+        position: absolute;
+        margin: 200px;
+        height: auto;
+        width: auto;
+        
+        
+        }
+
 .Container{
     max-width: 1400px;
     margin: auto;
