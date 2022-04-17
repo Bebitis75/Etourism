@@ -258,9 +258,9 @@ h2{
     }
 
   .stars{
-    position: absolute;
+    position: relative;
     padding-bottom: 70px;
-    top: 245%;
+    top: 1000px;
     left: 40%;
 
   }
@@ -290,4 +290,11 @@ h2{
 
     .stars.disabled{
       pointer-events: none;
+    }
+
+    .evaluacionstar{
+      position: absolute;
+      top: -120px;
+      left: 37px;
+
     }
