@@ -1,0 +1,293 @@
+.Text{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 7%;
+    margin-top: -5%;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: -10%
+
+}
+
+
+  .Divicion-1 {
+    margin-top:-1%;
+    margin-left: -1%;
+    width:101.55%;
+    height: 150px;
+    position: relative;
+    border: 0px;
+    }
+
+
+.Logo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:-5px;
+    animation-name: Logo;
+    animation-duration:3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    font-family:"lucida handwriting",cursive;
+
+    }
+
+
+    @keyframes Logo
+    {
+      from{transform: translateX(-5%)}
+      to{transform:translateX(325%)}
+    }
+
+
+    .Divicion-2{
+      margin-top: 0%;
+      margin-left: -1%;
+      position:relative;
+      width: 101.5%;
+      height: 400px;
+      background-color: #FB2D2f;
+    }
+    .bagulas{
+    position: absolute;
+    margin:0px;
+    height: 200px;
+    width: 300px;
+    left: 79%;
+
+
+
+    }
+
+    .dunas{
+    position: absolute;
+    margin: 0px;
+    height: 200px;
+    width: 300px;
+    left: 57.4%;
+    top:200px;
+
+    }
+
+    .zonaColonial{
+        position: absolute;
+        margin:0px;
+        height: 300px;
+        width: 500px;
+        left: 60%;
+        top: 67%;
+    }
+
+    .Intro{
+      position: absolute;
+      font-family:"lucida handwriting",cursive;
+      left: 10px;
+      width:101.5%;
+      height: 700px;
+    }
+
+    .Mapa{
+        position: absolute;
+        margin: 200px;
+        height: auto;
+        width: auto;
+        text-align: center;
+
+
+
+        }
+
+    .Azua{
+  margin-left: 37%;
+  position: absolute;
+  margin-top: 42%;
+}
+
+.Bahoruco{
+  margin-left: 27%;
+  position: absolute;
+  margin-top: 43.5%;
+}
+
+.Barahona{
+  margin-left: 28.5%;
+  position: absolute;
+  margin-top: 52%;
+}
+
+.Dajabón{
+  margin-left: 22.4%;
+  position: absolute;
+  margin-top: 23%;
+}
+
+.DistritoNacional{
+  margin-left: 54%;
+  position: absolute;
+  margin-top: 44%;
+}
+
+.Duarte{
+  margin-left: 51.4%;
+  position: absolute;
+  margin-top: 29%;
+}
+
+.ElíasPiña{
+  margin-left: 23.4%;
+  position: absolute;
+  margin-top: 30%;
+}
+
+.ElSeibo{
+  margin-left: 71.4%;
+  position: absolute;
+  margin-top: 38%;
+}
+
+.Espaillat{
+  margin-left: 45.4%;
+  position: absolute;
+  margin-top: 21.5%;
+}
+
+.HatoMayor{
+  margin-left: 63%;
+  position: absolute;
+  margin-top: 33.5%;
+}
+
+.HermanasMirabal{
+  margin-left: 45%;
+  position: absolute;
+  margin-top: 24.5%;
+}
+
+
+.Independencia{
+  margin-left: 22%;
+  position: absolute;
+  margin-top: 46.5%;
+}
+
+.PuertoPlata{
+  margin-left: 36%;
+  position: absolute;
+  margin-top: 17%;
+}
+
+.Samaná{
+  margin-left: 63%;
+  position: absolute;
+  margin-top: 28.2%;
+}
+.MonteCristi{
+  margin-left: 24%;
+  position: absolute;
+  margin-top: 17.5%;
+}
+
+.LaAltagracia{
+  margin-left: 78%;
+  position: absolute;
+  margin-top: 42.5%;
+}
+
+.SantoDomingo{
+  margin-left: 54.4%;
+  position: absolute;
+  margin-top: 43%;
+}
+
+.Santiago{
+  margin-left: 28.4%;
+  position: absolute;
+  margin-top: 24.5%;
+}
+
+.Pedernales{
+  margin-left: 23.8%;
+  position: absolute;
+  margin-top: 56.5%;
+}
+
+.SanJosédeOcoa{
+  margin-left: 42.8%;
+  position: absolute;
+  margin-top: 40.8%;
+}
+
+.SanPedrodeMacorís{
+  margin-left: 65%;
+  position: absolute;
+  margin-top: 42.8%;
+}
+
+.MonseñorNouel{
+  margin-left: 45%;
+  position: absolute;
+  margin-top: 36%;
+}
+
+.SanCristóbal{
+  margin-left: 47%;
+  position: absolute;
+  margin-top: 43%;
+}
+
+.SanJuan{
+  margin-left: 28%;
+  position: absolute;
+  margin-top: 36%;
+}
+
+.MontePlata{
+  margin-left: 58%;
+  position: absolute;
+  margin-top: 35%;
+}
+
+    .Container{
+        max-width: 1400px;
+        margin: auto;
+    }
+
+  .stars{
+    position: absolute;
+    padding-bottom: 70px;
+    top: 245%;
+    left: 40%;
+
+  }
+
+
+    .stars a{
+      opacity: 50%;
+      cursor: pointer;
+     padding: 10px;
+    }
+
+    .stars:hover a{
+      opacity: 100%;
+    }
+
+    .stars a:hover{
+      opacity: 100%;
+    }
+
+    .stars a:hover ~ a{
+      opacity: 50%;
+    }
+    .stars a.active{
+      opacity:100%;
+    }
+
+
+    .stars.disabled{
+      pointer-events: none;
+    }
