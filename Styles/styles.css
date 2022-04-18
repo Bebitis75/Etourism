@@ -10,10 +10,10 @@ h2{
     text-align: center;
     margin-top: 15%;
     margin-bottom: -10%
-    
+
 }
-    
-  
+
+
   .Divicion-1 {
     margin-top:-1%;
     margin-left: -1%;
@@ -22,8 +22,8 @@ h2{
     position: relative;
     border: 0px;
     }
-    
-    
+
+
 .Logo{
     height: 200px;
     width: 200px;
@@ -34,17 +34,17 @@ h2{
     animation-iteration-count:1;
     animation-fill-mode: forwards;
     font-family:"lucida handwriting",cursive;
-    
+
     }
-    
-    
+
+
     @keyframes Logo
     {
       from{transform: translateX(-5%)}
-      to{transform:translateX(325%)}
+      to{transform:translateX(320%)}
     }
-    
-    
+
+
     .Divicion-2{
       margin-top: 0%;
       margin-left: -1%;
@@ -59,11 +59,11 @@ h2{
     height: 200px;
     width: 300px;
     left: 79%;
-    
 
-    
+
+
     }
-    
+
     .dunas{
     position: absolute;
     margin: 0px;
@@ -71,7 +71,7 @@ h2{
     width: 300px;
     left: 57.4%;
     top:200px;
-    
+
     }
 
     .zonaColonial{
@@ -97,9 +97,9 @@ h2{
         height: auto;
         width: auto;
         text-align: center;
-        
-        
-        
+
+
+
         }
 
     .Azua{
@@ -251,8 +251,50 @@ h2{
   position: absolute;
   margin-top: 35%;
 }
-    
+
     .Container{
         max-width: 1400px;
         margin: auto;
+    }
+
+  .stars{
+    position: relative;
+    padding-bottom: 70px;
+    top: 1000px;
+    left: 40%;
+
+  }
+
+
+    .stars a{
+      opacity: 50%;
+      cursor: pointer;
+     padding: 10px;
+    }
+
+    .stars:hover a{
+      opacity: 100%;
+    }
+
+    .stars a:hover{
+      opacity: 100%;
+    }
+
+    .stars a:hover ~ a{
+      opacity: 50%;
+    }
+    .stars a.active{
+      opacity:100%;
+    }
+
+
+    .stars.disabled{
+      pointer-events: none;
+    }
+
+    .evaluacionstar{
+      position: absolute;
+      top: -120px;
+      left: 37px;
+
     }
